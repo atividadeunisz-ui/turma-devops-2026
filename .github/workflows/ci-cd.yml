@@ -75,8 +75,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/atividadeunisz-ui/turma-devops-2026
-            ${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ghcr.io/atividadeunisz-ui/turma-devops-2026/dashboard-app:latest
+            ghcr.io/atividadeunisz-ui/turma-devops-2026/dashboard-app:${{github.sha}}
 
   deploy:
     name: Deploy (Render)
