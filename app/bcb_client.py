@@ -19,7 +19,7 @@ DB_URL = os.environ.get("AIVEN_DB_URL")
 SERIES = {
     4503:   {"name": "Dívida do setor público - total", "unit": "R$", "casas": 4},
     10829: {"name": "Dívida fiscal líquida com câmbio", "unit": "% a.a.", "casas": 2},
-    4181: {"name": "Divida líquida do governo geral", "unit": "%", "casas": 2},
+    4181: {"name": "Divida líquida do governo geral", "unit": "R$", "casas": 2},
 }
 POINTS_PER_SERIES = 30
 
